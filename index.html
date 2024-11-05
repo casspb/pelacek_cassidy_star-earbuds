@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Cassidy Pelacek Earbuds</title>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <model-viewer src="pelacek_cassidy_headphones.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1.09" environment-image="spruit_sunrise_1k_HDR.hdr" exposure="1.55" shadow-softness="1" camera-orbit="107.8deg 84.47deg 2685m" field-of-view="17.9deg">
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+            <button slot="ar-button" id="ar-button">
+                View in your space
+            </button>
+            <div id="ar-prompt">
+                <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+            </div>
+        </model-viewer>        
+
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
