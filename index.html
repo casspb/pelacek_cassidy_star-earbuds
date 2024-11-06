@@ -15,21 +15,27 @@
     </header>
 
     <main>
-        <model-viewer id="model" src="model/pelacek_cassidy_headphones.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="images/poster.webp" shadow-intensity="1.09" exposure="1.55" shadow-softness="1" environment-image="spruit_sunrise_1k_HDR.hdr" camera-orbit="111.7deg 63.3deg 3614m" field-of-view="33.57deg">
-            <button class="Hotspot" slot="hotspot-1" data-position="801.4396080938768m 685.6372837819092m -539.1290521193262m" data-normal="-0.43813439234639756m -0.7016112123342546m 0.561943022885871m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">hotspot-1
+        <model-viewer src="model/pelacek_cassidy_headphones.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="images/poster.webp" shadow-intensity="1" environment-image="images/spruit_sunrise_1k_HDR.hdr" camera-orbit="119.2deg 64.02deg 3618m" field-of-view="30deg">
+            <button class="Hotspot" slot="hotspot-1" data-position="793.954709830622m 688.1596158040777m -541.8156143914389m" data-normal="-0.43813439234639756m -0.7016112123342546m 0.561943022885871m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">
+                    <h2>Touch Controls</h2>
                 </div>
-            </button><button class="Hotspot" slot="hotspot-2" data-position="684.7339390054526m 471.698215852683m -557.0861594548599m" data-normal="0.5250218344354562m 0.8478690699951755m -0.07396021573484428m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">hotspot-2
+            </button><button class="Hotspot" slot="hotspot-2" data-position="1051.4877324607146m 707.478297297919m -96.22526026068402m" data-normal="0.6242509940163312m 0.6537434260184578m -0.42770343628181406m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">
+                    <h2>Ear Wrap</h2>
+                    <p> Soft ear wrap to keep your headphones in no matter what, and removable for when you are going for a new look!</p>
                 </div>
-            </button><button class="Hotspot" slot="hotspot-3" data-position="1071.315518354701m 577.0789741305873m -218.9054313623837m" data-normal="0.1905358540440906m 0.7236123684766438m -0.6633861835396566m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">hotspot-3
+            </button><button class="Hotspot" slot="hotspot-3" data-position="675.9020257924724m 433.5355212658378m -243.57517715264115m" data-normal="-0.2528292980142146m 0.5017999369661892m -0.8272086612979631m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">
+                   <h2>Silicon Earpiece</h2>
+                   <p>comes in different sizes to fit what you need, and the comfort you desire!</p>
                 </div>
-            </button><button class="Hotspot" slot="hotspot-4" data-position="569.4203864485571m 416.85879407133416m -317.3962994628806m" data-normal="0.31645667032695274m 0.8929166293899558m -0.3202422032844184m" data-visibility-attribute="visible">
-                <div class="HotspotAnnotation">hotspot-4
+            </button><button class="Hotspot" slot="hotspot-4" data-position="719.0847060715128m 452.93990852806473m -562.3237806004092m" data-normal="0.4392940265085581m 0.8913213685706979m -0.11210252540936105m" data-visibility-attribute="visible">
+                <div class="HotspotAnnotation">
+                    <h2>Fast Charging</h2>
+                    <p> quick charging, and long lasting charge to keep the tunes going!</p>
                 </div>
             </button>
-
             <div class="progress-bar hide" slot="progress-bar">
                 <div class="update-bar"></div>
             </div>
@@ -37,18 +43,19 @@
                 View in your space
             </button>
             <div id="ar-prompt">
-                <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                <img src="images/ar_hand_prompt.png">
             </div>
-        </model-viewer>   
-
+          </model-viewer>  
     </main>
 
     <footer>
 
     </footer>
      <!-- Loads <model-viewer> for browsers: -->
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
-    <script src="js/main.js"></script>
+        <script src="script.js"></script>
+        <!-- Loads <model-viewer> for browsers: -->
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
 </body>
 
 </html>
