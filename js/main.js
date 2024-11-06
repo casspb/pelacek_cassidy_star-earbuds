@@ -4,9 +4,8 @@
     
     //Variables
     const hotspots = document.querySelectorAll('.Hotspot');
-  //  console.log(hotspots);
-  
-  
+
+
   //functions
   function showInfo(e) {
     //console.log("showInfo called");
