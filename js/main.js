@@ -13,21 +13,21 @@
       p: 'Easy touch control button, made to withstand consistent use.'
     },
     {
-      id: 'hotspot-2',
+      id: 'hotspot-4',
       h2: 'Ear Wrap',
       image: 'images/headphone-earwrap.png',
       alt: 'close up on earbuds with the part that wraps around your ear',
       p: 'Soft ear wrap to keep your headphones in no matter what, and removable for when you are going for a new look!'
     },
     {
-      id: 'hotspot-3',
+      id: 'hotspot-2',
       h2: 'Silicon Earpiece',
       image: 'images/headphone-earpiece.png',
       alt: 'close up on earbud of the silicon ear piece',
       p: 'Comes in different sizes to fit what you need, and the comfort you desire!'
     },
     {
-      id: 'hotspot-4',
+      id: 'hotspot-3',
       h2: 'Fast Charging',
       image: 'images/headphone-w-case.png',
       alt: 'earbuds displayed inside of the open charging case',
