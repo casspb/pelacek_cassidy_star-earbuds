@@ -7,14 +7,53 @@
     <title>Cassidy Pelacek Earbuds</title>
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/xgl2cyl.css">
 </head>
 
 <body>
     <header>
+        <a href="index.html" class="logo"><img src="images/Stars-logo.svg" alt="stars logo"></a>
+
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar"><img src="images/menu-alt-svgrepo-com.svg" class="menu-svg"> </label>
+
+        <nav class="navbar">
+        <ul>
+            <li>battery</li>
+            <li>details</li>
+            <li>gallery</li>
+            <li>shop</li>
+        </ul>
+        </nav>
 
     </header>
 
     <main>
+       <section class="scroll-vid-section full-width-grid-con">
+        <h1 class="hidden"> Scrolling video</h1>
+        <div class="col-span-full">
+        <canvas id="explode-view"></canvas> 
+    </div>
+       </section>
+
+       <section class="charging-stats-section ">
+        <h1 class="hidden"> charging stats</h1>
+            <div class="grid-con">
+                <h2 class="col-span-full m-col-span-4"><span>8</span><br> hours headphone life without case</h2>
+                <h2 class="col-span-full m-col-span-4"><span>52</span> <br> hours headphone life with case</h2>
+                <h2 class="col-span-full m-col-span-4"><span>2</span><br>hours charge time for full charge</h2>
+            </div>
+       </section>
+
+       <section class="xray-section">
+        <h1 class="hidden"> xray view slider section </h1>
+
+       </section>
+
+       <section>
+        <h1> Simply Smooth Sounds</h1>
+       </section>
+
         <model-viewer src="model/pelacek_cassidy_headphones3.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="images/poster.webp" shadow-intensity="1" environment-image="images/spruit_sunrise_1k_HDR.hdr" camera-orbit="119.2deg 64.02deg 3618m" field-of-view="30deg">
             <button class="Hotspot" slot="hotspot-1" data-surface="7 0 1908 1906 1457 0.309 0.486 0.205" data-visibility-attribute="visible">
                 <div class="HotspotAnnotation">
@@ -43,15 +82,36 @@
                 <div class="update-bar"></div>
             </div>
           </model-viewer>  
-    </main>
+
+          <h2>High Quality Premium Sounds</h2>
+          <h3>bringing  you comfort with soft earpieces, and a gentle ear wrap, with a removable feature</h3>
+          
+          <section class="gallery-section">
+            <h1>Reach for the Stars</h1>
+            <h2>and get the quality of headphones you deserve</h2>
+            <img src="images/promo-image-2.png" alt="earbuds with text that says 52 hours of charge">
+        </section>
+        </main>
 
     <footer>
+        <h1>FIND YOUR STARS NOW</h1>
+        <div class="social-icons">
+        <img src="images/facebook.svg" alt="facebook log">
+        <img src="images/instagram.svg" alt="instagram logo">
+        <img src="images/amazon.svg" alt="amazon logo">
+        <img src="images/tiktok.svg" alt="tiktok logo">
+        </div>
 
     </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
         <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
-            <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
+          
+        <script src="js/main.js"></script>
+        <script src="js/video.js"></script>
+        <script src="js/xray.js"></script>
 
 </body>
 

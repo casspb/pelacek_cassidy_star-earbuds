@@ -1,0 +1,33 @@
+main{
+    margin-top: 100px;
+}
+
+span{
+    font-size: 52px;
+}
+.scroll-vid-section{
+    background-color: black;
+    margin-top: -4px;
+}
+
+#explode-view {
+    max-width: 100%;
+
+}
+
+.charging-stats-section{
+    text-align: center;
+   
+}
+
+@media (min-width: 768px) {
+    span{
+        font-size: 68px;
+    }
+
+    .charging-stats-section{
+        h2{
+            font-size: 32px ;
+        }
+    }
+}
