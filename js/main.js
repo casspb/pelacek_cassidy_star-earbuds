@@ -17,7 +17,7 @@
       h2: 'Ear Wrap',
       image: 'images/headphone-earwrap.png',
       alt: 'close up on earbuds with the part that wraps around your ear',
-      p: 'Soft ear wrap to keep your headphones in no matter what, and removable for when you are going for a new look!'
+      p: 'Soft ear wrap to keep your headphones in, also removable'
     },
     {
       id: 'hotspot-2',

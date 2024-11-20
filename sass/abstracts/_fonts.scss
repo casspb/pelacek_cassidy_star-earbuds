@@ -1,0 +1,97 @@
+
+$primary-font-family: acumin-pro, sans-serif;
+
+
+
+// Fonts with breakpoints
+$breakpoint-mobile: 412px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1200px;
+
+// Font size defaults
+$font-size-h1: 48px;
+$font-size-h2: 32px;
+$font-size-h3: 16px;
+$font-size-p: 14px;
+
+h1 {
+    font-weight: 400;
+    font-size: $font-size-h1; // Base size for mobile
+    font-family: $primary-font-family;
+
+    @media (min-width: $breakpoint-mobile) {
+        font-size: 48px; // Mobile size
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+        font-size: 72px;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+        font-size: 128px;
+    }
+
+
+
+}
+
+h2 {
+    font-weight: 400;
+    font-size: $font-size-h2; // Base size for mobile
+    font-family: $primary-font-family;
+
+    @media (min-width: $breakpoint-mobile) {
+        font-size: 32px; // Mobile size
+    }
+   
+
+    @media (min-width: $breakpoint-tablet) {
+        font-size: 54px;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+        font-size: 78px;
+    }
+
+}
+
+h3 {
+    font-weight: 300;
+   
+    font-size: $font-size-h3; // Base size for mobile
+    font-family: $primary-font-family;
+
+    @media (min-width: $breakpoint-mobile) {
+        font-size: 16px; // Mobile size
+    }
+}
+
+p {
+    font-weight: 400;
+    font-size: $font-size-p; // Base size for mobile
+    font-family: $primary-font-family;
+
+
+    @media (min-width: $breakpoint-mobile) {
+        line-height: 22px;
+        font-size: 14px; // Mobile size
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+        line-height: 32px;
+        font-size: 20px;
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+        line-height: 34px;
+        font-size: 24px;
+    }
+}
+
+li{
+    font-family: $primary-font-family;
+   text-transform: uppercase;
+    list-style: none;
+    font-weight: 600;
+}
+
