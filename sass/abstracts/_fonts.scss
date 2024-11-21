@@ -46,11 +46,7 @@ h2 {
    
 
     @media (min-width: $breakpoint-tablet) {
-        font-size: 54px;
-    }
-
-    @media (min-width: $breakpoint-desktop) {
-        font-size: 78px;
+        font-size: 52px;
     }
 
 }
@@ -62,7 +58,7 @@ h3 {
     font-family: $primary-font-family;
 
     @media (min-width: $breakpoint-mobile) {
-        font-size: 16px; // Mobile size
+        font-size: 32px; // Mobile size
     }
 }
 

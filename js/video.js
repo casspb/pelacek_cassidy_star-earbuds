@@ -36,7 +36,7 @@
             pin: true, // this pins it down in one place
             scrub: 1, //control how the animation plays in regards to smoothness
     
-            start: "top 15%",
+            start: "top top",
         },
         onUpdate: render
     })
