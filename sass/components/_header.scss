@@ -1,31 +1,37 @@
-.logo{
+/* Styling for the logo */
+.logo {
     margin-left: 4em;
-   width: 190px;
-   color: white;
-   margin-top: 10px;
-   margin-bottom: 10px;
+    width: 190px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
 
+    &:hover {
+        color: rgba(255, 255, 255, 0.534);
+    }
+}
 
-header{
+header {
     position: fixed;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     background: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: rgba(255, 255, 255, 0.534);
     z-index: 2;
 
-
-    #menu-bar{
-        display: none;
+    #menu-bar {
+        display: none; /* Hide checkbox input */
     }
 
-
-
-    label{
+    label {
         width: 71px;
         height: 71px;
         cursor: pointer;
@@ -37,48 +43,47 @@ header{
         ul {
             margin-right: 4em;
             margin-top: -10px;
-    
+
             li {
-                
                 position: relative;
                 float: left;
                 font-size: 21px;
                 padding: 20px;
                 display: block;
                 position: relative;
-                }
             }
         }
     }
+}
 
 
+html {
+    scroll-behavior: smooth;
+}
 
-@media(max-width:786px){
-
-    header{
-        label{
-            display: initial;
+@media (max-width: 786px) {
+    header {
+        label {
+            display: initial; 
         }
 
-        .navbar{
+        .navbar {
             position: absolute;
-            top: 100%; left: 0; right: 0%;
-            display:none;
+            top: 100%;
+            left: 0;
+            right: 0%;
+            display: none;
+            background-color: black;
 
-            ul li{
+            ul li {
                 margin-bottom: 20px;
                 width: 100%;
-                &:last-child{
-                    margin-bottom: 400px;
-                }
             }
         }
     }
-
-    #menu-bar:checked ~ .navbar{
+    #menu-bar:checked ~ .navbar {
         display: initial;
         background-color: black;
-    
     }
 }
 
@@ -107,6 +112,7 @@ footer {
 
 
 .social-icons {
+    cursor: pointer;
     display: flex;          
     gap: 30px;             
     justify-content: center; 
@@ -115,6 +121,7 @@ footer {
     img{
         width:60px;
     }
+
 }
 
 
