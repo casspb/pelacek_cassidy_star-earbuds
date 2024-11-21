@@ -50,11 +50,12 @@
 
        </section>
 
-       <section>
+       <section class="title-section">
         <h1> Simply Smooth Sounds</h1>
        </section>
 
-        <model-viewer src="model/pelacek_cassidy_headphones3.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="images/poster.webp" shadow-intensity="1" environment-image="images/spruit_sunrise_1k_HDR.hdr" camera-orbit="119.2deg 64.02deg 3618m" field-of-view="30deg">
+       <div class="grid-con">
+        <model-viewer class="col-span-full m-col-start-1 m-col-span-6"  src="model/pelacek_cassidy_headphones3.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="images/poster.webp" shadow-intensity="1" environment-image="images/spruit_sunrise_1k_HDR.hdr" camera-orbit="119.2deg 64.02deg 3618m" field-of-view="30deg">
             <button class="Hotspot" slot="hotspot-1" data-surface="7 0 1908 1906 1457 0.309 0.486 0.205" data-visibility-attribute="visible">
                 <div class="HotspotAnnotation">
                    
@@ -83,14 +84,37 @@
             </div>
           </model-viewer>  
 
-          <h2>High Quality Premium Sounds</h2>
-          <h3>bringing  you comfort with soft earpieces, and a gentle ear wrap, with a removable feature</h3>
+          <div class="sound-info col-span-full m-col-start-7 m-col-span-full">
+          <h2>High Quality <br> Premium Sounds</h2>
+          <h3>bringing  you comfort with soft earpieces, and a gentle ear wrap, with a removable feature to stay in throughout all of your aventures</h3>
+        </div>
+    </div>
+    <div class="full-width-grid-con background">
+        <h1 >Reach for the Stars</h1>
+        <h2>And get the quality of headphones you deserve.</h2>
+    <section class="gallery-section grid-con">
+        
+    
+        <!-- Gallery Box with a default image -->
+        <div class="gallery-box col-span-full m-col-span-9">
+            <img id="gallery-image" src="images/promo-image-2.png" alt="earbuds with text that says 52 hours of charge">
+        </div>
+    
+        <!-- Thumbnail images that will change the gallery image when clicked -->
+        <div class="image-thumbnails col-span-full m-col-start-11">
+            <div class="thumbnail" data-image="images/promo-image-2.png">
+                <img src="images/promo-image-2.png" alt="thumbnail of the headphones">
+            </div>
+            <div class="thumbnail" data-image="images/promo-image-4.png">
+                <img src="images/promo-image-4.png" alt="thumbnail of the headphones">
+            </div>
+            <div class="thumbnail" data-image="images/promo-image-6.png">
+                <img src="images/promo-image-6.png" alt="thumbnail of the headphones">
+            </div>
           
-          <section class="gallery-section">
-            <h1>Reach for the Stars</h1>
-            <h2>and get the quality of headphones you deserve</h2>
-            <img src="images/promo-image-2.png" alt="earbuds with text that says 52 hours of charge">
-        </section>
+        </div>
+    </section>
+</div>
         </main>
 
     <footer>
@@ -112,6 +136,7 @@
         <script src="js/main.js"></script>
         <script src="js/video.js"></script>
         <script src="js/xray.js"></script>
+        <script src="js/gallery.js"></script>
 
 </body>
 

@@ -1,33 +1,125 @@
-main{
-    margin-top: 100px;
-}
+
 
 span{
     font-size: 52px;
+    font-weight: 600;
 }
 .scroll-vid-section{
     background-color: black;
     margin-top: -4px;
 }
 
+
 #explode-view {
     max-width: 100%;
+    padding: 0 60px;
 
 }
 
 .charging-stats-section{
     text-align: center;
+    margin: 40px 0;
    
 }
+
+.title-section{
+
+    h1{
+        text-align: center;
+    }
+}
+
+.sound-info{
+    h2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+}
+
+.gallery-section{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+
+    h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+}
+
+.background{
+    background-color: black;
+    color: white;
+
+}
+
+.gallery-section{
+    padding-top: 40px;
+ 
+     h2{
+         
+         font-size: 32px;
+     }
+
+ }
+
+ .background{
+     padding-top: 40px;
+     text-align: center;
+ }
+
+ .gallery-box{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .gallery-box img {
+     max-width: 100%;
+     max-height: 100%;
+     object-fit: contain;
+   }
+
+ .image-thumbnails{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     gap: 10px;
+ 
+ }
+
+ .thumbnail {
+     width: 170px; /* Adjust size of the thumbnails */
+     height: 170px;
+     cursor: pointer;
+     overflow: hidden;
+     border-radius: 8px;
+   }
+
+   .thumbnail img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+
 
 @media (min-width: 768px) {
     span{
         font-size: 68px;
+    
     }
 
     .charging-stats-section{
         h2{
             font-size: 32px ;
         }
+    }
+
+    .image-thumbnails{
+        flex-direction: column;
     }
 }
