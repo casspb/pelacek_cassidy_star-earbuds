@@ -1,4 +1,6 @@
-
+html{
+    background-color: black;
+}
 
 span{
     font-size: 52px;
@@ -6,38 +8,65 @@ span{
 }
 .scroll-vid-section{
     background-color: black;
-    margin-top: -4px;
+   padding-top: 4em;
 }
 
 
 #explode-view {
     max-width: 100%;
-    padding: 0 60px;
-
+    width: 100vw;
+   
 }
+
 
 .charging-stats-section{
     text-align: center;
-    margin: 40px 0;
+    padding: 6em 0;
+    background-color: black;
+   
+    span{
+        color: white;
+    }
+
+    h2{
+        color: #BADD7F;
+    }
    
 }
 
 .title-section{
+    background-color: black;
+    color: #BADD7F;
 
     h1{
+        
         text-align: center;
+        padding: 2em 0;
     }
+}
+.full-width-grid-con{
+    background-color: black;
+}
+
+.model-section{
+    background-color: black;
+    color: white;
 }
 
 .sound-info{
     h2{
-        margin-top: 30px;
-        margin-bottom: 30px;
+       padding-top: 30px;
+        padding-bottom: 30px;
         font-weight: 600;
+    }
+
+    h3{
+        color: rgba(255, 255, 255, 0.534);
     }
 }
 
 .gallery-section{
+
     background-color: black;
     color: white;
     margin-top: 20px;
@@ -50,25 +79,28 @@ span{
 }
 
 .background{
+    padding: 4em 1em;
     background-color: black;
     color: white;
+    text-align: center;
+
+    h2{
+        color: #BADD7F;
+    }
 
 }
 
 .gallery-section{
-    padding-top: 40px;
+    padding: 3em 0;
+
  
      h2{
-         
          font-size: 32px;
      }
 
  }
 
- .background{
-     padding-top: 40px;
-     text-align: center;
- }
+
 
  .gallery-box{
      width: 100%;
@@ -89,6 +121,7 @@ span{
      justify-content: space-between;
      margin-top: 20px;
      gap: 10px;
+     
  
  }
 
@@ -108,9 +141,29 @@ span{
 
 
 @media (min-width: 768px) {
+
+    .title-section{
+        padding-top: 4em;
+        padding-bottom: 4em;
+        text-transform: uppercase;
+    }
     span{
         font-size: 68px;
     
+    }
+
+   .sound-info{
+    margin-left: 4em;
+        margin-bottom: 4em;
+
+        h2{
+
+            font-weight: 600;
+        }
+
+        h3{
+            margin-bottom: 2em;
+        }
     }
 
     .charging-stats-section{

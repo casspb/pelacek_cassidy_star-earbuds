@@ -32,10 +32,10 @@
         //greensock goes by decimals so you use snap to make it full values 
         scrollTrigger:{
             //what is the trigger? the canvas
-            trigger:"#explode-view",
+            trigger:"main",
             pin: true, // this pins it down in one place
             scrub: 1, //control how the animation plays in regards to smoothness
-    
+        
             start: "top top",
         },
         onUpdate: render
