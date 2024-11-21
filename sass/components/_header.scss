@@ -1,21 +1,21 @@
 .logo{
-    margin-left: 30px;
+    margin-left: 4em;
    width: 190px;
    color: white;
-   margin-top: 20px;
-   margin-bottom: 18px;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 
 
 header{
-    position: static;
+    position: fixed;
     top: 0; left: 0; right: 0;
     background: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: white;
+    color: rgba(255, 255, 255, 0.534);
     z-index: 2;
 
 
@@ -30,12 +30,12 @@ header{
         height: 71px;
         cursor: pointer;
         display: none;
-        margin-right: 30px;
+        margin-right: 4em;
     }
 
     .navbar {
         ul {
-            margin-right: 30px;
+            margin-right: 4em;
             margin-top: -10px;
     
             li {
@@ -83,12 +83,13 @@ header{
 }
 
 
+
 //footer
 
 footer {
     background-color: black;
-    color: white;
-    padding: 60px 0;
+    color: rgba(255, 255, 255, 0.534);
+    padding: 100px 0;
     display: flex;          
     flex-direction: column;
     align-items: center;   
@@ -96,8 +97,10 @@ footer {
     text-align: center;    
 
     h1 {
+
+        font-weight: 500;
         padding-bottom: 40px;
-        margin: 0; 
+        margin-top: 2em;
     }
 }
 
@@ -110,7 +113,7 @@ footer {
     width: auto;            
 
     img{
-        width: 80px;
+        width:60px;
     }
 }
 
