@@ -139,8 +139,23 @@ span{
      object-fit: cover;
    }
 
+ //video
+
+ canvas{
+    display: none;
+ }
+
 
 @media (min-width: 768px) {
+
+    #player-container{
+        display: none;
+    }
+
+    canvas{
+        display: block;
+     }
+
 
     .title-section{
         padding-top: 4em;

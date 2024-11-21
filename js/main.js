@@ -118,4 +118,5 @@
       hotspot.addEventListener("mouseout", hideInfo);  
     }
   });
+
 })();
